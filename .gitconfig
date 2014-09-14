@@ -3,3 +3,5 @@
 [user]
 	name = Joseph Long
 	email = jdl@fastmail.fm
+[push]
+	default = simple
