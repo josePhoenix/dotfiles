@@ -1,0 +1,5 @@
+[alias]
+	undo-commit = reset --soft HEAD^
+[user]
+	name = Joseph Long
+	email = jdl@fastmail.fm
