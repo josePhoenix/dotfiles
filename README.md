@@ -33,16 +33,16 @@ Keep Python packages up to date with `pip install -U`
 ## Terminal Apps
 
   - Install Homebrew
-    ```bash
+```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    ```
+```
   - Install Python 3 from Homebrew (`brew install python3`) and default to Python 3
-    ```bash
+```bash
 echo "alias python=\"python3\"" >> ~/.profile
 echo "alias pip=\"pip3\"" >> ~/.profile
 pip install --upgrade setuptools
 pip install --upgrade pip
-    ```
+```
   - Install Git from Homebrew (`brew install git`)
   - Install mosh from Homebrew (`brew install mosh`)
   - Install FreeType from Homebrew (`brew install freetype`)
