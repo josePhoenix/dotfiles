@@ -29,6 +29,8 @@ Keep Python packages up to date with `pip install -U`
   - Install [AppZapper](http://appzapper.com) (don't allow contacts)
   - Install [f.lux](http://justgetflux.com) 
   - Install [Ureka](http://ssb.stsci.edu/ureka/) (maybe do this after the Homebrew stuff below...)
+  - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+  - Install [Vagrant](http://www.vagrantup.com/downloads.html)
 
 ## Terminal Apps
 
@@ -44,7 +46,7 @@ pip install --upgrade setuptools
 pip install --upgrade pip
 ```
   - Install Git from Homebrew (`brew install git`)
-  - Install mosh from Homebrew (`brew install mosh`)
+  - Install mosh from Homebrew (`brew install mobile-shell`)
   - Install FreeType from Homebrew (`brew install freetype`)
   - Install NumPy from pip (`pip install numpy`)
   - Install virtualenv and virtualenvwrapper from pip (`pip install virtualenv virtualenvwrapper`)
