@@ -32,24 +32,34 @@ Keep Python packages up to date with `pip install -U`
   - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
   - Install [Vagrant](http://www.vagrantup.com/downloads.html)
 
-## Terminal Apps
+## Homebrew Apps
 
   - Install Homebrew
 ```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-  - Install Python 3 from Homebrew (`brew install python3`) and default to Python 3
+  - Install Python 2.7, Python 3 from Homebrew (`brew install python python3`) and update setuptools
 ```bash
-echo "alias python=\"python3\"" >> ~/.profile
-echo "alias pip=\"pip3\"" >> ~/.profile
 pip install --upgrade setuptools
 pip install --upgrade pip
+pip3 install --upgrade setuptools
+pip3 install --upgrade pip
 ```
-  - Install Git from Homebrew (`brew install git`)
-  - Install mosh from Homebrew (`brew install mobile-shell`)
-  - Install FreeType from Homebrew (`brew install freetype`)
+  - Install Git (`brew install git`)
+  - Install mosh (`brew install mobile-shell`)
+  - Install FreeType (`brew install freetype`)
+  - Install ZeroMQ (`brew install zeromq`)
+
+## Python Packages
+
+Ansible needs special treatment: `sudo pip install ansible`.
+
+For everything else, `pip install -Ur systemwide_requirements.txt`. That will:
+
   - Install NumPy from pip (`pip install numpy`)
   - Install virtualenv and virtualenvwrapper from pip (`pip install virtualenv virtualenvwrapper`)
-  - Install ZeroMQ from Homebrew (`brew install zeromq`)
   - Install PyZMQ from pip (`pip install pyzmq`)
   - Install matplotlib from pip (`pip install matplotlib`)
+  - Install SciPy from pip (`pip install scipy`)
+  - Install Tornado from pip (`pip install tornado`)
+  - Install IPython from pip (`pip install ipython`)
