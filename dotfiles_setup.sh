@@ -17,7 +17,5 @@ for git_template_dir in "/usr/share/git-core/templates" "/usr/local/share/git-co
     fi
 done
 
-git config --global init.templatedir "$HOME/.git-template/"
-
 echo -n "Fetching and/or updating git submodules..."
 git submodule init && git submodule update && echo " Done!"
