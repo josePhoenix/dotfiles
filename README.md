@@ -12,7 +12,7 @@ Then proceed to download and install those things that require interactive insta
 
 New versions of vim plugins in submodules can be obtained with `git submodule foreach git pull origin master`
 
-Keep Homebrew-managed applications up to date with `brew update && brew upgrade`
+Keep Homebrew-managed applications up to date with `brew update && brew upgrade` (`brew update && brew outdated` to list)
 
 Keep Python packages up to date with `pip install -U`
 
