@@ -56,3 +56,7 @@ if [ -d "$HOME/etc/bash_completion.d/" ]; then
   source "$HOME/etc/bash_completion"
 fi
 
+export WORKON_HOME="$HOME/.virtualenvs"
+export PROJECT_HOME="$HOME/dev"
+export VIRTUALENVWRAPPER_SCRIPT="$HOME/bin/virtualenvwrapper.sh"
+source "$HOME/bin/virtualenvwrapper_lazy.sh"
