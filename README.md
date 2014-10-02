@@ -49,6 +49,7 @@ pip3 install --upgrade pip
   - Install mosh (`brew install mobile-shell`)
   - Install FreeType (`brew install freetype`)
   - Install ZeroMQ (`brew install zeromq`)
+  - Install `bash_completion` (`brew install bash_completion`)
 
 ## Python Packages
 

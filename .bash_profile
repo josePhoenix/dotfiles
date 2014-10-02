@@ -1,6 +1,4 @@
 source $HOME/.profile
-source /usr/local/etc/bash_completion.d/*
-
 
 # get current branch in git repo
 function parse_git_branch() {
@@ -50,4 +48,11 @@ function parse_git_dirty {
 }
 
 export PS1="\[\e[34m\]\t\[\e[m\] \[\e[32m\]\h\[\e[m\]:\W\[\e[36m\]\`parse_git_branch\`\[\e[m\] \u\[\e[37m\]\\$\[\e[m\] "
+
+if [ -d /usr/local/etc/bash_completion.d/ ]; then
+  source /usr/local/etc/bash_completion
+fi
+if [ -d "$HOME/etc/bash_completion.d/" ]; then
+  source "$HOME/etc/bash_completion"
+fi
 
