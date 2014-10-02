@@ -9,3 +9,5 @@
 	# the tilde here lets this work regardless of my username on
 	# the destination system
 	templatedir = ~/.git-template/
+[color]
+	ui = true
