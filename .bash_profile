@@ -58,5 +58,10 @@ fi
 
 export WORKON_HOME="$HOME/.virtualenvs"
 export PROJECT_HOME="$HOME/dev"
-export VIRTUALENVWRAPPER_SCRIPT="$HOME/bin/virtualenvwrapper.sh"
-source "$HOME/bin/virtualenvwrapper_lazy.sh"
+if [ -f "$HOME/bin/virtualenvwrapper.sh" ]; then
+  export VIRTUALENVWRAPPER_SCRIPT="$HOME/bin/virtualenvwrapper.sh"
+  source "$HOME/bin/virtualenvwrapper_lazy.sh"
+elif [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+  export VIRTUALENVWRAPPER_SCRIPT="/usr/local/bin/virtualenvwrapper.sh"
+  source "/usr/local/bin/virtualenvwrapper_lazy.sh"
+fi
