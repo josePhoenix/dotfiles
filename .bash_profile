@@ -60,3 +60,9 @@ export WORKON_HOME="$HOME/.virtualenvs"
 export PROJECT_HOME="$HOME/dev"
 export VIRTUALENVWRAPPER_SCRIPT="$HOME/bin/virtualenvwrapper.sh"
 source "$HOME/bin/virtualenvwrapper_lazy.sh"
+
+if [ -d "$HOME/.profile.d" ]; then
+  for fn in "$HOME/.profile.d/"*; do
+    source "$fn"
+  done
+fi
