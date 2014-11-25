@@ -503,8 +503,6 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -529,21 +527,29 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>0 228 924 485 0 0 1366 746 </string>
+	<string>104 261 924 485 0 0 1366 746 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>752 74 570 672 0 0 1366 746 </string>
+	<string>446 5 570 740 0 0 1366 746 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>763 295 570 451 0 0 1366 746 </string>
+	<string>795 295 570 451 0 0 1366 746 </string>
+	<key>NSWindow Frame iTerm Window 10</key>
+	<string>505 25 570 451 0 0 1366 746 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>674 295 570 451 0 0 1366 746 </string>
+	<string>-2 6 570 740 0 0 1366 746 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>2 282 1228 451 0 0 1366 746 </string>
+	<string>228 295 570 451 0 0 1366 746 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>232 295 570 451 0 0 1366 746 </string>
+	<string>2 286 570 451 0 0 1366 746 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>274 278 570 451 0 0 1366 746 </string>
+	<string>2 5 1361 740 0 0 1366 746 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>316 177 570 451 0 0 1366 746 </string>
+	<string>0 295 570 451 0 0 1366 746 </string>
+	<key>NSWindow Frame iTerm Window 7</key>
+	<string>2 163 1361 451 0 0 1366 746 </string>
+	<key>NSWindow Frame iTerm Window 8</key>
+	<string>798 6 570 740 0 0 1366 746 </string>
+	<key>NSWindow Frame iTerm Window 9</key>
+	<string>733 147 570 451 0 0 1366 746 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -565,11 +571,11 @@
 			<key>Ansi 1 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.14145714044570923</real>
+				<real>0.14145712554454803</real>
 				<key>Green Component</key>
-				<real>0.10840655118227005</real>
+				<real>0.10840645432472229</real>
 				<key>Red Component</key>
-				<real>0.81926977634429932</real>
+				<real>0.81926983594894409</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
@@ -704,11 +710,11 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.15170273184776306</real>
+				<real>0.86405980587005615</real>
 				<key>Green Component</key>
-				<real>0.11783610284328461</real>
+				<real>0.95794391632080078</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.98943418264389038</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -727,11 +733,11 @@
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.56363654136657715</real>
+				<real>0.38298487663269043</real>
 				<key>Green Component</key>
-				<real>0.56485837697982788</real>
+				<real>0.35665956139564514</real>
 				<key>Red Component</key>
-				<real>0.50599193572998047</real>
+				<real>0.27671992778778076</real>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -744,20 +750,20 @@
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.51685798168182373</real>
+				<real>0.43850564956665039</real>
 				<key>Green Component</key>
-				<real>0.50962930917739868</real>
+				<real>0.40717673301696777</real>
 				<key>Red Component</key>
-				<real>0.44058024883270264</real>
+				<real>0.32436618208885193</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.19370138645172119</real>
+				<real>0.79781103134155273</real>
 				<key>Green Component</key>
-				<real>0.15575926005840302</real>
+				<real>0.89001238346099854</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.91611063480377197</real>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>2</integer>
@@ -778,11 +784,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.51685798168182373</real>
+				<real>0.43850564956665039</real>
 				<key>Green Component</key>
-				<real>0.50962930917739868</real>
+				<real>0.40717673301696777</real>
 				<key>Red Component</key>
-				<real>0.44058024883270264</real>
+				<real>0.32436618208885193</real>
 			</dict>
 			<key>Guid</key>
 			<string>10E6406E-9653-4AF0-A3A4-43F7420D81E3</string>
@@ -1019,20 +1025,20 @@
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.56363654136657715</real>
+				<real>0.38298487663269043</real>
 				<key>Green Component</key>
-				<real>0.56485837697982788</real>
+				<real>0.35665956139564514</real>
 				<key>Red Component</key>
-				<real>0.50599193572998047</real>
+				<real>0.27671992778778076</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.19370138645172119</real>
+				<real>0.79781103134155273</real>
 				<key>Green Component</key>
-				<real>0.15575926005840302</real>
+				<real>0.89001238346099854</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.91611063480377197</real>
 			</dict>
 			<key>Semantic History</key>
 			<dict>
@@ -1174,6 +1180,8 @@
 			<string>/Users/jdl</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1229,14 +1237,14 @@
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedURL</key>
 	<string>http://iterm2.com/appcasts/testing.xml</string>
-	<key>SUHasLaunchedBefore</key>
-	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-09-27T18:43:15Z</date>
+	<date>2014-11-25T01:27:35Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1267,6 +1275,10 @@
 	<true/>
 	<key>UseLionStyleFullscreen</key>
 	<true/>
+	<key>WebKitDefaultFontSize</key>
+	<integer>11</integer>
+	<key>WebKitStandardFont</key>
+	<string>.Lucida Grande UI</string>
 	<key>WindowNumber</key>
 	<true/>
 	<key>WindowStyle</key>
@@ -1274,6 +1286,6 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>2.0</string>
+	<string>2.0.0.20141103</string>
 </dict>
 </plist>
