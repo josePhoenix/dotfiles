@@ -7,8 +7,8 @@ else
   echo "Homebrew directory already exists."
 fi
 
-mkdir -p "$HOME/"{etc,opt,include,lib,share/man/man1,homebrew}
+mkdir -p "$HOME/"{etc,opt,include,lib,share/man/man1,man,Frameworks,homebrew}
 ln -s "$HOME/homebrew/share/man/man1/brew.1" "$HOME/share/man/man1/brew.1"
-chflags hidden "$HOME/"{etc,opt,include,lib,share,homebrew}
+chflags hidden "$HOME/"{etc,opt,include,lib,share,man,Frameworks,homebrew}
 
 echo "brew installed at $(which brew)"
