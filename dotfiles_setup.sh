@@ -1,7 +1,7 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-for dotfile in ".bash_profile" ".gitconfig" ".inputrc" ".profile" ".vim" ".vimrc" ".profile.d"; do
+for dotfile in ".bash_profile" ".gitconfig" ".inputrc" ".profile" ".vim" ".vimrc" ".profile.d" ".slate"; do
     # if it doesn't exist, or exists but is a symlink...
     if ! [ -e "$HOME/$dotfile" ] || [ -h "$HOME/$dotfile" ]; then
         rm -f "$HOME/$dotfile"
