@@ -3,6 +3,6 @@ export MANPATH="$HOME/share/man:$MANPATH"
 export EDITOR="$HOME/bin/mate -w"
 # color ls output
 export CLICOLOR=1
-export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+export LSCOLORS=exfxcxdxbxegedabagacad
 
 export XPA_METHOD=local
