@@ -30,10 +30,13 @@ set autoindent
 " show line numbers
 set number
 
-" Indentation settings for using hard tabs for indent. Display tabs as
-" N characters wide.
+" Indentation settings for using spaces for indent. Display tabs as
+" 4 characters wide.
+filetype plugin indent on
 set shiftwidth=4
 set tabstop=4
+set softtabstop=4
+set expandtab
 
 " Make w, q, and wq case insensitive
 command W w
