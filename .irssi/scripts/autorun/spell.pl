@@ -1,0 +1,1 @@
+/home/josephoenix/.irssi/scripts/spell.pl
