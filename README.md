@@ -28,9 +28,7 @@ Keep Python packages up to date with `pip install -U`
   - Install [VLC](http://videolan.org)
   - Install [AppZapper](http://appzapper.com) (don't allow contacts)
   - Install [f.lux](http://justgetflux.com) 
-  - Install [Ureka](http://ssb.stsci.edu/ureka/) (maybe do this after the Homebrew stuff below...)
   - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-  - Install [Vagrant](http://www.vagrantup.com/downloads.html)
   - Install [iTerm 2](http://iterm2.com/downloads.html)
   - Install [Adblock Plus](https://adblockplus.org) Safari Extension
 
