@@ -18,11 +18,11 @@ Keep Python packages up to date with `pip install -U`
 
 ## App Store & Downloadable DMGs
 
+  - Install [1Password](http://1password.com/)
   - Install [XCode from the App Store](https://developer.apple.com/xcode/downloads/)
+  - Install [Slate](https://github.com/jigish/slate)
   - Install [The Unarchiver from the App Store](https://itunes.apple.com/app/the-unarchiver/id425424353)
   - Set preferences to allow unknown apps: *System Preferences -> Security & Privacy -> General -> Allow apps downloaded from anywhere*
-  - Install [CyberDuck](http://cyberduck.ch)
-  - Install Microsoft Office (if available from institution)
   - Install [Skim](http://skim-app.sourceforge.net)
   - Install [BasicTeX](https://tug.org/mactex/morepackages.html)
   - Install [VLC](http://videolan.org)
@@ -31,6 +31,8 @@ Keep Python packages up to date with `pip install -U`
   - Install [Ureka](http://ssb.stsci.edu/ureka/) (maybe do this after the Homebrew stuff below...)
   - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
   - Install [Vagrant](http://www.vagrantup.com/downloads.html)
+  - Install [iTerm 2](http://iterm2.com/downloads.html)
+  - Install [Adblock Plus](https://adblockplus.org) Safari Extension
 
 ## Homebrew Apps
 
