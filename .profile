@@ -5,3 +5,4 @@ export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
 
 export XPA_METHOD=local
+export HOMEBREW_NO_ANALYTICS=1
