@@ -14,7 +14,7 @@ New versions of vim plugins in submodules can be obtained with `git submodule fo
 
 Keep Homebrew-managed applications up to date with `brew update && brew upgrade` (`brew update && brew outdated` to list)
 
-Keep Python packages up to date with `pip install -U`
+Keep Python packages up to date with `pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U`
 
 ## App Store & Downloadable DMGs
 
@@ -45,6 +45,25 @@ pip install --upgrade pip
 pip3 install --upgrade setuptools
 pip3 install --upgrade pip
 ```
+  - Remove the symlinks to `pip` and `python` that point to 2.7
+
+        which pip
+        which python
+        rm `which pip` `which python`
+        ln -s $(brew --prefix)/bin/python3.5 $(brew --prefix)/bin/python
+        ln -s $(brew --prefix)/bin/pip3 $(brew --prefix)/bin/pip
+
+  - Install some useful Python packages:
+
+        pip2 install -Ur systemwide_requirements.txt
+        rm `which ipython3` `which ipython`  # fix some nonsense where Python 2.7 + IPython installs an IPython for 2.7 command at ipython3
+        pip3 install -Ur systemwide_requirements.txt
+
+  - Fix `ipython` to point to Python 3.5
+
+        mv `which ipython` $(brew --prefix)/bin/ipython2
+        ln -s `which ipython3` $(brew --prefix)/bin/ipython
+
   - Install Git (`brew install git`)
   - Install mosh (`brew install mobile-shell`)
   - Install FreeType (`brew install freetype`)
