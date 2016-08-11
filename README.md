@@ -59,11 +59,6 @@ pip3 install --upgrade pip
         rm `which ipython3` `which ipython`  # fix some nonsense where Python 2.7 + IPython installs an IPython for 2.7 command at ipython3
         pip3 install -Ur systemwide_requirements.txt
 
-  - Fix `ipython` to point to Python 3.5
-
-        mv `which ipython` $(brew --prefix)/bin/ipython2
-        ln -s `which ipython3` $(brew --prefix)/bin/ipython
-
   - Install Git (`brew install git`)
   - Install mosh (`brew install mobile-shell`)
   - Install FreeType (`brew install freetype`)
