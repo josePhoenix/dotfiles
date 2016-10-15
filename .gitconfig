@@ -2,11 +2,7 @@
 	undo-commit = reset --soft HEAD^
 [user]
 	name = Joseph Long
-	email = jdl@fastmail.fm
-# [init]
-	# the tilde here lets this work regardless of my username on
-	# the destination system
-    # templatedir = ~/.git-template/
+	email = jdl@fastmail.com
 [color]
 	ui = true
 [push]
