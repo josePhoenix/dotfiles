@@ -9,13 +9,5 @@ for dotfile in ".bash_profile" ".bashrc" ".gitconfig" ".inputrc" ".profile" ".vi
     fi
 done
 
-# mkdir -p "$HOME/.git-template/"
-# for git_template_dir in "/usr/share/git-core/templates" "/usr/local/share/git-core/templates"; do
-#     if [ -d "$git_template_dir/" ]; then
-#         cp -Rv "$git_template_dir/" "$HOME/.git-template/"
-#         cp -Rv "$DIR/git-template-overlay/"* "$HOME/.git-template/"
-#     fi
-# done
-
 echo -n "Fetching and/or updating git submodules..."
 git submodule init && git submodule update && echo " Done!"
