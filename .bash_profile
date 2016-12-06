@@ -1,7 +1,15 @@
 source $HOME/.profile
 
+export DISABLE_GIT_PROMPT=0
+
+alias disable-git-prompt="export DISABLE_GIT_PROMPT=1"
+alias enable-git-prompt="export DISABLE_GIT_PROMPT=0"
+
 # get current branch in git repo
 function parse_git_branch() {
+    if [ "$DISABLE_GIT_PROMPT" == 1 ]; then
+        return
+    fi
     BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
     if [ ! "${BRANCH}" == "" ]
     then
@@ -14,6 +22,9 @@ function parse_git_branch() {
 
 # get current status of git repo
 function parse_git_dirty {
+    if [ "$DISABLE_GIT_PROMPT" == 1 ]; then
+        return
+    fi
     status=`git status 2>&1 | tee`
     dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
     untracked=`echo -n "${status}" 2> /dev/null | grep "Untracked files" &> /dev/null; echo "$?"`
