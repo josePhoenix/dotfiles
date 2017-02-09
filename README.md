@@ -16,6 +16,11 @@ Keep Homebrew-managed applications up to date with `brew update && brew upgrade`
 
 Keep Python packages up to date with `pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U`
 
+On point releases of Python, it may be necessary to reinstall a bunch of stuff (e.g. IPython and Jupyter). To re-enable the Python 2.7 kernel:
+
+    python2 -m pip install ipykernel
+    python2 -m ipykernel install --user
+
 ## App Store & Downloadable DMGs
 
   - Install [1Password](http://1password.com/)
@@ -37,6 +42,10 @@ Keep Python packages up to date with `pip freeze --local | grep -v '^\-e' | cut 
   - Install Homebrew
 
         /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+  - Use casks:
+
+        brew tap caskroom/cask
 
   - Install Python 2.7, Python 3 from Homebrew (`brew install python python3`) and update setuptools
 
